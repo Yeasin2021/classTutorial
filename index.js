@@ -20,3 +20,29 @@
 
  // tarnary operator 
  console.log((b >=18) ? 'true' : 'false');
+
+
+//  11/16/2022
+
+//  var nam = 'Asif b';
+//  console.log(nam);
+
+//  template String 
+var age = 25;
+// var nam = 'Age is ' + age;
+var nam = `Age is ${age} ${a+b}` // 1->bactreack->string->variable(${variable})
+console.log(nam);
+
+// null 
+var xyz = null;
+console.log(xyz);
+
+// undefine
+var y
+console.log(a+xyz)
+console.log(y+a)
+
+
+document.getElementById('demo').innerHTML = nam;
+
+
